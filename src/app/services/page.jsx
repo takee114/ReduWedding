@@ -1,17 +1,16 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import TrackingPixels from "@/components/TrackingPixels";
-import { 
-  Search, 
-  Share2, 
-  Target, 
-  BarChart3, 
-  Megaphone, 
-  TrendingUp,
-  Check,
+import {
   ArrowRight,
-  Star
+  BarChart3,
+  Check,
+  Megaphone,
+  Search,
+  Share2,
+  Target,
+  TrendingUp
 } from "lucide-react";
 
 export const metadata = {
@@ -357,34 +356,6 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-r from-blue-600 to-indigo-700 text-white px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-extrabold text-3xl lg:text-5xl leading-tight mb-6">
-            Ready to Grow Your Business?
-          </h2>
-          <p className="text-lg lg:text-xl mb-8 opacity-90">
-            Let's discuss how our digital marketing services can help you achieve 
-            your business goals and drive sustainable growth.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="/contact"
-              className="bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 inline-flex items-center justify-center"
-            >
-              Get Free Strategy Session
-            </a>
-            <a 
-              href="tel:+1234567890"
-              className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-200 inline-flex items-center justify-center"
-            >
-              Call Now: (234) 567-8900
-            </a>
-          </div>
-        </div>
-      </section>
-
       <Footer />
       <FloatingWhatsApp />
     </div>

@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -51,9 +51,7 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm px-6 py-2 rounded-full transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transform hover:scale-105">
-              Get Started
-            </button>
+           
           </div>
 
           {/* Mobile menu button */}
@@ -99,9 +97,6 @@ export default function Header() {
               >
                 Contact
               </a>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm px-6 py-2 rounded-full transition-all duration-150 w-full">
-                Get Started
-              </button>
             </nav>
           </div>
         )}
