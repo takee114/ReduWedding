@@ -14,10 +14,10 @@ export default function HomePage() {
       <TrackingPixels />
       <Header />
       <HeroSection />
-      <ServicesOverview />
+      {/* <ServicesOverview /> */}
       <WhyChooseUs />
       <TestimonialsSection />
-      <CallToActionSection />
+      {/* <CallToActionSection /> */}
       <Footer />
       <FloatingWhatsApp />
     </div>

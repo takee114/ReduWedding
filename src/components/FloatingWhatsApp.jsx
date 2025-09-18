@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
 import { MessageCircle, X } from "lucide-react";
+import { useState } from "react";
 
 export default function FloatingWhatsApp() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ export default function FloatingWhatsApp() {
       <div className="fixed bottom-6 right-6 z-50">
         {/* Chat preview bubble */}
         {isOpen && (
-          <div className="mb-4 bg-white rounded-lg shadow-lg border p-4 max-w-xs animate-bounce">
+          <div className="mb-4 bg-white rounded-lg shadow-lg border p-4 max-w-xs ">
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
@@ -76,26 +76,7 @@ export default function FloatingWhatsApp() {
       </div>
 
       {/* Pulse animation styles */}
-      <style jsx>{`
-        @keyframes pulse {
-          0% {
-            transform: scale(1);
-            box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
-          }
-          70% {
-            transform: scale(1);
-            box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
-          }
-          100% {
-            transform: scale(1);
-            box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
-          }
-        }
-        
-        .animate-pulse-custom {
-          animation: pulse 2s infinite;
-        }
-      `}</style>
+     
     </>
   );
 }
