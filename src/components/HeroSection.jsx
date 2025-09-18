@@ -1,6 +1,6 @@
 "use client";
+import { ArrowRight, Check } from "lucide-react";
 import { useState } from "react";
-import { Check, ArrowRight } from "lucide-react";
 
 export default function HeroSection() {
   const [email, setEmail] = useState("");
@@ -54,22 +54,7 @@ export default function HeroSection() {
                 Transform Your
                 <span className="relative inline-block ml-4">
                   Digital
-                  <svg
-                    className="absolute left-0 w-full h-[10px]"
-                    style={{ bottom: "-6px" }}
-                    viewBox="0 0 100 10"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                  >
-                    <rect
-                      x="0"
-                      y="0"
-                      width="100"
-                      height="10"
-                      fill="#3B82F6"
-                      rx="4"
-                    />
-                  </svg>
+
                 </span>
                 <br />
                 Marketing Today
