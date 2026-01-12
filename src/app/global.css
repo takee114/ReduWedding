@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  height: 100%;
-}
-
-body {
-  font-family: "Spectral";
-}
-
-html {
-  scroll-behavior: smooth;
+@layer base {
+  input, textarea, select, button {
+    @apply outline-none focus:outline-none;
+  }
 }
