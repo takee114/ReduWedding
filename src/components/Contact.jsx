@@ -219,7 +219,7 @@ const handleSubmit = async (e) => {
                     <Send className="w-6 h-6" />
                   </a>
                   <a
-                    href="https://instagram.com/rediet_ayele"
+                    href="https://instagram.com/redu_weddings"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-[#D4958D] transition-colors duration-200 p-2 rounded-full hover:bg-gray-50"
