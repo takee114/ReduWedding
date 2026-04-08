@@ -241,7 +241,7 @@ export default function ReduWeddingHome() {
     <Contact />
 
       {/* Footer */}
-/*  <Footer /> */
+ <Footer />
 
       {/* Floating WhatsApp Button */}
       <a
