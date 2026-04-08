@@ -7,32 +7,5 @@ export default function Footer() {
           <p className="text-sm text-gray-500 font-inter">
             © 2026 Redu. All rights reserved.
           </p>
-          <div className="flex flex-col md:flex-row items-center gap-6">
-            <div className="flex gap-6">
-     
-            </div>
-            <div className="flex gap-4">
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-[#D4958D] transition-colors duration-200"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-
-        
-              <a
-                href="https://wa.me/251929148708"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-[#D4958D] transition-colors duration-200"
-                aria-label="WhatsApp"
-              >
-                <MessageCircle className="w-5 h-5" />
-              </a>
-            </div>
-          </div>
         </div>
       </footer>  );}
