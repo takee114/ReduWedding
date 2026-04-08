@@ -9,18 +9,7 @@ export default function Footer() {
           </p>
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="flex gap-6">
-              <a
-                href="#"
-                className="text-sm text-gray-500 hover:text-[#D4958D] transition-colors duration-200 font-inter"
-              >
-                Privacy
-              </a>
-              <a
-                href="#"
-                className="text-sm text-gray-500 hover:text-[#D4958D] transition-colors duration-200 font-inter"
-              >
-                Terms
-              </a>
+     
             </div>
             <div className="flex gap-4">
               <a
@@ -32,24 +21,8 @@ export default function Footer() {
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-[#D4958D] transition-colors duration-200"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-[#D4958D] transition-colors duration-200"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
+
+        
               <a
                 href="https://wa.me/251929148708"
                 target="_blank"
