@@ -1,43 +1,39 @@
 "use client";   
 export default function Portfolio() {
       const portfolioImages = [
+
     {
       id: 1,
-      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1/f_auto,q_auto/IMG_9853_jbuxou",
-      title: "Outdoor Ceremony",
-    },
-    {
-      id: 2,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647969/IMG_1435_zf4jyb.jpg",
       title: "Reception Details",
     },
     {
-      id: 3,
+      id: 2,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/f_jpg/v1775647968/IMG_9717_tlrwvv.heic",
-      title: "Couple Portrait",
+      title: "",
     },
     {
-      id: 4,
+      id: 3,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647967/IMG_9853_ve3u2n.jpg",
       title: "Wedding Cake",
     },
     {
-      id: 5,
+      id: 4,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647966/IMG_3949_nsyibs.jpg",
-      title: "Bridal Bouquet",
+      title: "Outdoor Ceremony",
+    },
+    {
+      id: 5,
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647966/IMG_9412_rix1ew.jpg",
+      title: "Couple Portrait",
     },
     {
       id: 6,
-      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647966/IMG_9412_rix1ew.jpg",
-      title: "Venue Setup",
-    },
-    {
-      id: 7,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647965/IMG_1420_ppuovb.jpg",
       title: "Ceremony Moments",
     },
     {
-      id: 8,
+      id: 7,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647964/IMG_6970_hdc9r4.jpg",
       title: "Reception Highlights",
     },
