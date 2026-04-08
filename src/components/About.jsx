@@ -10,16 +10,16 @@ export default function About() {
 
         <div className="max-w-3xl">
           <p className="text-gray-600 font-inter leading-relaxed mb-6">
-            Redu was founded on the belief that every couple deserves a wedding
-            that reflects their unique love story. With over 10 years of
-            experience in the wedding industry, we've had the privilege of
-            planning and coordinating hundreds of celebrations.
+            Redu Wedding and Events was founded on the belief that every couple
+            deserves a wedding that reflects their unique love story. With over
+            5 years of experience in the wedding industry, we've had the
+            privilege of planning and coordinating hundreds of celebrations.
           </p>
           <p className="text-gray-600 font-inter leading-relaxed mb-6">
-            Our team of dedicated professionals brings creativity, organization,
-            and a personal touch to every event. We work closely with you to
-            understand your vision and bring it to life with meticulous
-            attention to detail.
+            Our team of dedicated professionals brings creativity,
+            organization, and a personal touch to every event. We work closely
+            with you to understand your vision and bring it to life with
+            meticulous attention to detail.
           </p>
           <p className="text-gray-600 font-inter leading-relaxed">
             From intimate elopements to grand celebrations, we're here to make

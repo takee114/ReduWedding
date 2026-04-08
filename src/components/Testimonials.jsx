@@ -19,9 +19,9 @@ export default function Testimonials() {
               recommend!"
             </p>
             <p className="text-sm font-semibold text-gray-800 font-inter">
-              Sarah & Michael
+              Mekdes & Daniel
             </p>
-            <p className="text-xs text-gray-500 font-inter">June 2024</p>
+            <p className="text-xs text-gray-500 font-inter">June 2023</p>
           </div>
 
           <div className="bg-white p-8 border border-gray-200/60">
@@ -31,9 +31,9 @@ export default function Testimonials() {
               magical."
             </p>
             <p className="text-sm font-semibold text-gray-800 font-inter">
-              Emily & David
+              Lulit & Solomon
             </p>
-            <p className="text-xs text-gray-500 font-inter">August 2024</p>
+            <p className="text-xs text-gray-500 font-inter">August 2025</p>
           </div>
 
           <div className="bg-white p-8 border border-gray-200/60">
@@ -43,9 +43,9 @@ export default function Testimonials() {
               you!"
             </p>
             <p className="text-sm font-semibold text-gray-800 font-inter">
-              Jessica & Ryan
+              Saba & Dawit
             </p>
-            <p className="text-xs text-gray-500 font-inter">October 2024</p>
+            <p className="text-xs text-gray-500 font-inter">October 2026</p>
           </div>
 
           <div className="bg-white p-8 border border-gray-200/60">
@@ -55,9 +55,9 @@ export default function Testimonials() {
               them."
             </p>
             <p className="text-sm font-semibold text-gray-800 font-inter">
-              Amanda & Chris
+              Hanna & Tsegaye
             </p>
-            <p className="text-xs text-gray-500 font-inter">December 2024</p>
+            <p className="text-xs text-gray-500 font-inter">December 2025</p>
           </div>
         </div>
       </section>);}
