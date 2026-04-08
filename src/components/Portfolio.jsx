@@ -5,7 +5,7 @@ export default function Portfolio() {
     {
       id: 1,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647969/IMG_1435_zf4jyb.jpg",
-      title: "Reception Details",
+      title: "",
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ export default function Portfolio() {
     {
       id: 3,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647967/IMG_9853_ve3u2n.jpg",
-      title: "Wedding Cake",
+      title: "",
     },
     {
       id: 4,
@@ -25,12 +25,12 @@ export default function Portfolio() {
     {
       id: 5,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647966/IMG_9412_rix1ew.jpg",
-      title: "Couple Portrait",
+      title: "",
     },
     {
       id: 6,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647965/IMG_1420_ppuovb.jpg",
-      title: "Ceremony Moments",
+      title: "",
     },
     {
       id: 7,
