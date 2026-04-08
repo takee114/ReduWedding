@@ -3,33 +3,43 @@ export default function Portfolio() {
       const portfolioImages = [
     {
       id: 1,
-      url: "https://raw.createusercontent.com/1de22b27-f1ea-479a-b8f6-458ab441ef9c/",
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1/f_auto,q_auto/IMG_9853_jbuxou",
       title: "Outdoor Ceremony",
     },
     {
       id: 2,
-      url: "https://raw.createusercontent.com/edca2318-4785-47f6-9dcf-4e3115af2533/",
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647969/IMG_1435_zf4jyb.jpg",
       title: "Reception Details",
     },
     {
       id: 3,
-      url: "https://raw.createusercontent.com/479e4d59-a37b-411e-81dd-cc3c3c1b4ab6/",
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/f_jpg/v1775647968/IMG_9717_tlrwvv.heic",
       title: "Couple Portrait",
     },
     {
       id: 4,
-      url: "https://raw.createusercontent.com/0f73883e-5da1-4fb2-b83b-f98ef1efe3ae/",
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647967/IMG_9853_ve3u2n.jpg",
       title: "Wedding Cake",
     },
     {
       id: 5,
-      url: "https://raw.createusercontent.com/5c615df2-5e1e-46ac-af1d-e54c3122ca92/",
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647966/IMG_3949_nsyibs.jpg",
       title: "Bridal Bouquet",
     },
     {
       id: 6,
-      url: "https://raw.createusercontent.com/90a219a1-46ab-45db-9b20-59708d856fc6/",
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647966/IMG_9412_rix1ew.jpg",
       title: "Venue Setup",
+    },
+    {
+      id: 7,
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647965/IMG_1420_ppuovb.jpg",
+      title: "Ceremony Moments",
+    },
+    {
+      id: 8,
+      url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647964/IMG_6970_hdc9r4.jpg",
+      title: "Reception Highlights",
     },
   ];
     return (

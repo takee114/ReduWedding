@@ -136,14 +136,14 @@ export default function ReduWeddingHome() {
               >
                 Contact
               </a>
-              <a
-                href="https://wa.me/251929148708"
+              {/* <a
+                href="https://wa.me/+251929148708"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs font-semibold uppercase text-[#D4958D] hover:text-[#C17E75] active:text-[#B06A61] transition-colors duration-200 focus:outline-none tracking-wide font-inter"
               >
                 Book Now
-              </a>
+              </a> */}
             </div>
           </div>
 
