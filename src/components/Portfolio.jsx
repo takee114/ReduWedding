@@ -35,7 +35,7 @@ export default function Portfolio() {
     {
       id: 7,
       url: "https://res.cloudinary.com/doj5xi5bt/image/upload/v1775647964/IMG_6970_hdc9r4.jpg",
-      title: "Reception Highlights",
+      title: "First Dance",
     },
   ];
     return (
