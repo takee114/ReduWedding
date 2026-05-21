@@ -16,15 +16,42 @@ export default function Contact() {
   };  
 const handleSubmit = async (e) => {
     e.preventDefault();
-    setFormSubmitted(true);
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      weddingDate: "",
-      message: "",
-    });
-    setTimeout(() => setFormSubmitted(false), 5000);
+    
+    try {
+      const formDataToSend = new FormData();
+      formDataToSend.append("access_key", process.env.NEXT_PUBLIC_WEB3FORM_KEY);
+      formDataToSend.append("name", formData.name);
+      formDataToSend.append("email", formData.email);
+      formDataToSend.append("phone", formData.phone);
+      formDataToSend.append("weddingDate", formData.weddingDate);
+      formDataToSend.append("message", formData.message);
+      formDataToSend.append("from_name", "ReduWeddings Contact Form");
+      formDataToSend.append("redirect", "https://reduwedding.com/contact");
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formDataToSend,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setFormSubmitted(true);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          weddingDate: "",
+          message: "",
+        });
+        setTimeout(() => setFormSubmitted(false), 5000);
+      } else {
+        alert("Error sending inquiry. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Failed to send inquiry. Please try again.");
+    }
   };
     return(  
          <section id="contact" className="px-6 md:px-14 py-24 bg-gray-50">
