@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Instagram, Send, User, Mail, Phone, Calendar, MessageSquare, CheckCircle } from "lucide-react";
+import { Instagram, Send, User, Mail, Phone, Calendar, MessageSquare, CheckCircle, Loader } from "lucide-react";
 export default function Contact() {
       const [formData, setFormData] = useState({
         name: "",
@@ -10,12 +10,14 @@ export default function Contact() {
         message: "",
       });
       const [formSubmitted, setFormSubmitted] = useState(false);
+      const [isLoading, setIsLoading] = useState(false);
     
     const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };  
 const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     
     try {
       const formDataToSend = new FormData();
@@ -51,6 +53,8 @@ const handleSubmit = async (e) => {
     } catch (error) {
       console.error("Error:", error);
       alert("Failed to send inquiry. Please try again.");
+    } finally {
+      setIsLoading(false);
     }
   };
     return(  
@@ -175,16 +179,27 @@ const handleSubmit = async (e) => {
 
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-[#D4958D] text-white text-sm font-semibold uppercase tracking-wide hover:bg-[#C17E75] active:bg-[#B06A61] transition-all duration-200 font-inter rounded-md shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                disabled={isLoading}
+                className="w-full px-8 py-4 bg-[#D4958D] text-white text-sm font-semibold uppercase tracking-wide hover:bg-[#C17E75] active:bg-[#B06A61] transition-all duration-200 font-inter rounded-md shadow-md hover:shadow-lg transform hover:-translate-y-0.5 disabled:bg-gray-400 disabled:cursor-not-allowed disabled:hover:shadow-md disabled:hover:-translate-y-0 flex items-center justify-center gap-2"
               >
-                Send Inquiry
+                {isLoading ? (
+                  <>
+                    <Loader className="w-5 h-5 animate-spin" />
+                    Sending...
+                  </>
+                ) : (
+                  "Send Inquiry"
+                )}
               </button>
 
               {formSubmitted && (
-                <div className="p-4 bg-green-50 border border-green-200 text-green-800 text-sm font-inter rounded-md shadow-sm">
+                <div className="p-4 bg-green-50 border border-green-200 text-green-800 text-sm font-inter rounded-md shadow-md animate-in fade-in duration-500">
                   <div className="flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5" />
-                    <span>Thank you! We'll get back to you soon.</span>
+                    <CheckCircle className="w-5 h-5 flex-shrink-0 animate-bounce" />
+                    <div>
+                      <p className="font-semibold">Success!</p>
+                      <p>Thank you! We'll get back to you soon.</p>
+                    </div>
                   </div>
                 </div>
               )}
