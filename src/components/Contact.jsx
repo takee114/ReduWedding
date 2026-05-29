@@ -26,7 +26,7 @@ const handleSubmit = async (e) => {
       formDataToSend.append("weddingDate", formData.weddingDate);
       formDataToSend.append("message", formData.message);
       formDataToSend.append("from_name", "ReduWeddings Contact Form");
-      formDataToSend.append("redirect", "https://reduwedding.com/contact");
+      formDataToSend.append("redirect", "https://reduweddings.netlify.app/");
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
