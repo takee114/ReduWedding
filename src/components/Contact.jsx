@@ -226,10 +226,10 @@ const handleSubmit = async (e) => {
                   Email
                 </h4>
                 <a
-                  href="mailto:reduweddings@gmail.com"
+                  href="mailto:reduweddingandevents@gmail.com"
                   className="text-gray-600 font-inter hover:text-[#D4958D] transition-colors duration-200"
                 >
-                  reduweddings@gmail.com
+                  reduweddingandevents@gmail.com
                 </a>
               </div>
 
